@@ -1,0 +1,32 @@
+nav {
+    padding: 4rem 5rem 36rem;
+    background: url("../images/illustration-intro.png") no-repeat bottom;
+    display: flex;
+    justify-content: space-between;
+
+    .brand {
+        height: 52px;
+        width: 176px;
+        background: url("../images/logo.svg") no-repeat;
+    }
+
+    #navbar-menu {
+        display: flex;
+
+        li {
+            margin-left: 3rem;
+            display: flex;
+            align-items: center;
+
+            a {
+                color: $word-color-2;
+            }
+
+            a:hover {
+                color: $word-color-1;
+                font-weight: 700;
+                text-decoration: underline;
+            }
+        }
+    }
+}
